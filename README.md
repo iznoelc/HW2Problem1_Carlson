@@ -15,3 +15,5 @@ Command pattern was used in order to break down the prediction into steps. This 
 - Talked with Esperanza Paulino about our UMLs and how we were approaching the classes and their structure. Coded up individually.
 - Dr. Roy's Office Hours
 
+### Output
+See [output screenshot](https://github.com/iznoelc/HW2Problem1_Carlson/blob/9759082105531a1c37292aa6de6ed95b028bcbe5/OutputScreenshot.PNG)
