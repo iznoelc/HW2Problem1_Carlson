@@ -5,4 +5,13 @@ A Java application that demonstrates the implementation of template pattern and 
 
 ### Design Patterns Implemented
 #### 1. Template Pattern
-test
+Template pattern was used in order to create a base class for the hurricane prediction models. It defines a series of calls to various prediction steps and then a predictHurricane method that calls all steps in order. All methods except predictHurricane are abstract in order to force subclasses (specific prediction models) to implement their own implementation.
+
+#### 2. Command Pattern
+Command pattern was used in order to break down the prediction into steps. This allows for as many or as little steps to be called as the user wants. For example, the command portion of this application could be used if the user only wanted to fetch data, but not apply a prediction model or save the results. 
+
+### Resources Used
+- Template pattern & Command pattern slides
+- Talked with Esperanza Paulino about our UMLs and how we were approaching the classes and their structure. Coded up individually.
+- Dr. Roy's Office Hours
+
